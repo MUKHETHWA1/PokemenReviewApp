@@ -4,6 +4,7 @@
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        //one to many relation
         public ICollection<Owner> Owners { get; set; }   
     }
 }
